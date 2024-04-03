@@ -10,3 +10,4 @@ enum COLORS {
 void setFGcolor(int);
 void clearScreen(void);
 void gotoXy(int, int);
+void resetColors(void);
