@@ -15,7 +15,7 @@ void pascal_triangle(int rows) {
 	resetColors();
 }
 
-//function defination of n select k
+//function defination of n-select-k
 int binomial(int n, int k) {
 	return factorial(n) / factorial(k) / factorial(n - k);
 
